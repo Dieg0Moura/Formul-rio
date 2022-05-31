@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2 class="title-register">cadastro</h2>
+
+        <form actio="" method="post" enctype="multipart/form-data">
+            <label class="name" for="Nome">Nome</label>
+
+            <input class="input-name" type="text" placeholder="Nome" id="nome" required name="text"
+                pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$">
+
+            <label class="name-email" for="email">Email</label>
+
+            <input placeholder="Email" type="email" id="email" name="email" required>
+
+            <label for="idade">Idade</label>
+
+            <input placeholder="Idade" type="number" required>
+            
+            <label for="Data-Nascimento">Data De Nascimento</label>
+
+            <input type="date" name="data-nascimento" id="data-nascimento" required>
+
+
+            <label>Onde você Possui conta:
+                <div>
+                    <label class="input-inline">
+                        <input type="checkbox" name="instagram">Instagram
+                    </label>
+
+                    <label class="input-inline">
+                        <input type="checkbox" name="instagram">Facbook
+                    </label>
+
+                    <label class="input-inline">
+                        <input type="checkbox" name="instagram">Youtube
+                    </label>
+                </div>
+            </label>
+
+            <div>
+                <label for="sexo">Sexo</label>
+                <input type="radio" value="massculino" name="genero" required>Masculino
+                <input type="radio" value="Feminino" name="genero" required>Feminino
+            </div>
+
+
+            <label>Cor Dos Olhos
+                <input type="color" name="cor-dos-olhos">
+
+
+            </label>
+
+            <label>
+                Biografia
+
+                <textarea name="bio"></textarea>
+
+
+            </label>
+
+            <label>Foto Do Perfil
+
+                <input type="file" class="input-block" name="arquivo" accept="image/*">
+
+
+            </label>
+
+            <label>Telefone
+
+                <input type="tel"   class="input-block" name="telefone" pattern="[0-9]+$">
+
+
+            </label>
+
+            <label>Link Do perfil do Facebook
+
+                <input type="url"   class="input-block" name="url" id="url" pattern="https://.*" size="30">
+
+
+            </label>
+
+
+            <label>Senha
+
+                <input type="password"   class="input-block" name="senha" required min="6" max="8">
+
+
+            </label>
+
+            <button type="reset" class="button-clear" name="reset">Limpar</button>
+            <button type="submit" class="button-submit" name="submit">Enviar Dados</button>
+            
+        </form>
+    </div>
+</body>
+
+</html>

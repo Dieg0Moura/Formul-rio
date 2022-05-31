@@ -1,0 +1,62 @@
+
+ .title-register {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 200;
+    top: -6px;
+    background-color: white;
+    padding: 0px 3px;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-top: 16px;
+    background-color: rgb(214, 232, 231);
+}
+
+label{
+    display: block;
+}
+
+input{
+    margin-bottom: 20px;
+    border: 2px solid rgb(4, 33, 255);
+}
+
+
+.input-inline{
+display: inline;
+}
+
+textarea{
+    display: block;
+    margin-bottom: 18px;
+}
+
+.input-block{
+    display: block;
+}
+
+button{
+cursor: pointer;
+}
+
+.button-clear:hover{
+    background-color: rgb(225, 13, 253);
+    width: 70px;
+    height: 30px;
+    color:aqua;
+    border: 2px solid rgb(80, 249, 255)
+}
+.button-submit:hover{
+    background-color: rgb(225, 13, 253);
+    width: 100px;
+    height: 30px;
+    color:aqua;
+    border: 2px solid rgb(80, 249,255)
+}
+
+
